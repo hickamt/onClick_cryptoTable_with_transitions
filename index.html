@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="HTML, CSS, JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnClick with HTML, CSS & JS</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>onClick | HTML, CSS, JS</h1>
+    <h5>JSON Array -> HTML Table</h5>
+    <div id="crypto-opening"></div>
+
+    <div id="crypto-table">
+      As illustrated above, the JSON array contains static cryptocurrency data.
+      This application shows one of the many methods of using HTML id elements
+      with JavaScript and CSS styles to render: text, view transitions, and
+      converting a JSON array to a table. Initiate the buildTable() method and
+      view the JSON data as an HTML rendered table by clicking on the 'Show
+      More' button below.
+
+      <br /><br />
+
+      <table class="table table-striped">
+        <tr class="bg-info">
+          <th>Name</th>
+          <th>Price</th>
+          <th>1 HR</th>
+          <th>24 HR</th>
+        </tr>
+
+        <tbody id="myTable"></tbody>
+      </table>
+    </div>
+
+    <a id="show-more">Show More</a>
+
+    <script src="bootstrap.js"></script>
+  </body>
+</html>
